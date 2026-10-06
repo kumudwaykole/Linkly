@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev:api": "pnpm --filter @linkly/api dev"
+    "dev": "pnpm --parallel --filter ./apps/* run dev",
+    "dev:api": "pnpm --filter @linkly/api dev",
+    "dev:web": "pnpm --filter ./apps/web dev"
   },
   "packageManager": "pnpm@10.34.4"
 }
