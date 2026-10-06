@@ -1,0 +1,9 @@
+{
+  "name": "linkly",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:api": "pnpm --filter @linkly/api dev"
+  },
+  "packageManager": "pnpm@10.34.4"
+}
